@@ -14,9 +14,9 @@ function getTemplate() {
 }
 
 //? Функция для отображения слайдов
-function slidesPlugin(slidesList, pageTitle) {
+function slidesPlugin(slidesList, title) {
     //? Изменяем главный заголовок
-    const pageTitle = document.querySelector('.title').textContent = pageTitle
+    const pageTitle = document.querySelector('.title').textContent = title
     //? Перебираем массив слайдов
     slidesList.map((slide) => {
         const slideElement = getTemplate()
@@ -42,4 +42,4 @@ function slidesPlugin(slidesList, pageTitle) {
     }
 }
 
-slidesPlugin(bmwList)
+slidesPlugin(bmwList, 'BMW Cars Gallery')
