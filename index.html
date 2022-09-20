@@ -11,37 +11,15 @@
 <body>
   <h1 class="title">BMW Cars Gallery</h1>
   <div class="container">
-    <div class="slide"
-      style="background-image: url('https://images.unsplash.com/photo-1638869389391-40c8be6dc010?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1528&q=80');">
-      <h3 class="slide__title">M3</h3>
-      <div class="slide__overlay"></div>
-    </div>
-    <div class="slide" style="
-          background-image: url('https://images.unsplash.com/photo-1515574012038-691898bd8f94?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
-        ">
-      <h3 class="slide__title">M4</h3>
-      <div class="slide__overlay"></div>
-    </div>
-    <div class="slide" style="
-          background-image: url('https://images.unsplash.com/photo-1563969105338-abc74a72e7e8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
-        ">
-      <h3 class="slide__title">M5</h3>
-      <div class="slide__overlay"></div>
-    </div>
-    <div class="slide" style="
-          background-image: url('https://images.unsplash.com/photo-1625510416933-b758b040443b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80');
-        ">
-      <h3 class="slide__title">M6</h3>
-      <div class="slide__overlay"></div>
-    </div>
-    <div class="slide" style="
-          background-image: url('https://images.unsplash.com/photo-1548087713-b1fdffcfddff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
-        ">
-      <h3 class="slide__title">X7</h3>
-      <div class="slide__overlay"></div>
-    </div>
   </div>
-  <script src="index.js"></script>
+  <template class="slides-template">
+    <div class="slide">
+      <h3 class="slide__title"></h3>
+      <div class="slide__overlay"></div>
+    </div>
+  </template>
+  <script type="module" src="./utils/images.js"></script>
+  <script type="module" src="index.js"></script>
 </body>
 
 </html>
